@@ -25,7 +25,7 @@ public class NetworkClientUI : MonoBehaviour {
 	}
 	
 	void Connect() {
-		client.Connect("192.168.219.103", 25000);	
+		client.Connect("192.168.219.102", 25000);	
 	}
 
 	static public void SendJoystickInfo(double hDelta, double vDelta) {
